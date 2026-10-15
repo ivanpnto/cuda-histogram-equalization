@@ -1,0 +1,31 @@
+# Carpetas de compilación y binarios
+build/
+bin/
+out/
+.vs/
+x64/
+Debug/
+Release/
+
+# Archivos de caché y configuración de CMake
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+*.cmake
+!CMakeLists.txt
+
+# Archivos de proyectos y soluciones de Visual Studio
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+
+# Imágenes o datos de salida (mantiene la carpeta pero ignora su contenido)
+data/output/*
+!data/output/.gitkeep
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
