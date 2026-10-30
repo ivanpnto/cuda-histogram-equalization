@@ -9,7 +9,7 @@
 
 bool loadGrayscaleImage(const char* filename, unsigned char*& data, int& width, int& height) {
     int channels;
-    data = stbi_load(filename, &width, &height, &channels, 1); // fuerza escala de grises
+    data = stbi_load(filename, &width, &height, &channels, 1); // force 1 channel (grayscale)
     if (!data) {
         std::cerr << "Error loading image: " << filename << std::endl;
         return false;
