@@ -57,7 +57,7 @@ void buildLUTFromHistogram(const int histogram[256], int totalPixels, unsigned c
 }
 
 int main(int argc, char* argv[]) {
-    const char* inputPath = "../data/input/large.png";
+    const char* inputPath = "../data/input/Large.png";
     const char* outputCPUPath = "../data/output/equalized_cpu.png";
     const char* outputGPUPath = "../data/output/equalized_gpu.png";
     const int repetitions = 10;
